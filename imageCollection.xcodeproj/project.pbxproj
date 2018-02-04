@@ -14,6 +14,7 @@
 		A1DAE21820271C160071A943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DAE21620271C160071A943 /* LaunchScreen.storyboard */; };
 		A1DAE22320271C160071A943 /* imageCollectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAE22220271C160071A943 /* imageCollectionTests.swift */; };
 		A1DAE22E20271C170071A943 /* imageCollectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAE22D20271C170071A943 /* imageCollectionUITests.swift */; };
+		A1DAE23C202729110071A943 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DAE23B202729110071A943 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A1DAE22920271C160071A943 /* imageCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DAE22D20271C170071A943 /* imageCollectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionUITests.swift; sourceTree = "<group>"; };
 		A1DAE22F20271C170071A943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DAE23B202729110071A943 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A1DAE21420271C160071A943 /* Assets.xcassets */,
 				A1DAE21620271C160071A943 /* LaunchScreen.storyboard */,
 				A1DAE21920271C160071A943 /* Info.plist */,
+				A1DAE23B202729110071A943 /* MyCollectionViewCell.swift */,
 			);
 			path = imageCollection;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				A1DAE21020271C160071A943 /* ViewController.swift in Sources */,
 				A1DAE20E20271C160071A943 /* AppDelegate.swift in Sources */,
+				A1DAE23C202729110071A943 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
